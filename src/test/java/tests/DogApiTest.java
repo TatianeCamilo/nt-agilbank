@@ -51,7 +51,7 @@ public class DogApiTest {
         JsonSchemaValidatorUtil.validateSchema(response, "randomImageSchema.json");
     }
 
-    // Novos cenários de erro HTTP
+   
     @Test
     public void testGetBreedImagesWithInvalidBreedReturns404() {
         given()
